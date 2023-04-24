@@ -1,9 +1,9 @@
 ﻿class Date
 {
     // declaring variables
-    int month;
-    int day;
-    int year;
+    public int month;
+    public int day;
+    public int year;
 
     // Month property for setting and getting value for month variable
     int Month
@@ -24,5 +24,13 @@
     {
         get { return year; }
         set { year = value; }
+    }
+
+    // constructor
+    Date (int month, int day, int year)
+    {
+        Month = month;
+        Day = day;
+        Year = year;
     }
 }
