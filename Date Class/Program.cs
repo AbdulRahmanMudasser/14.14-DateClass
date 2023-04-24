@@ -1,12 +1,12 @@
 ﻿class Date
 {
     // declaring variables
-    public int month;
-    public int day;
-    public int year;
+    private int month;
+    private int day;
+    private int year;
 
     // Month property for setting and getting value for month variable
-    int Month
+    public int Month
     {
         get { return month; }
         set { month = value; }
