@@ -27,10 +27,27 @@
     }
 
     // constructor
-    Date (int month, int day, int year)
+    public Date (int month, int day, int year)
     {
         Month = month;
         Day = day;
         Year = year;
+    }
+
+    // DisplayDate method
+    public void DisplayDate()
+    {
+        Console.WriteLine("{0}/{1}/{2}", Month, Day, Year);
+    }
+}
+// end of Date class
+
+class DateTest
+{
+    static void Main(string[] args)
+    {
+        Date date = new Date(4, 24, 2023);
+
+        date.DisplayDate();
     }
 }
