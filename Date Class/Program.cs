@@ -13,14 +13,14 @@
     }
 
     // Day property for setting and getting value for day variable
-    int Day
+    public int Day
     {
         get { return day; }
         set { day = value; }
     }
 
     // Year property for setting and getting value for year variable
-    int Year
+    public int Year
     {
         get { return year; }
         set { year = value; }
